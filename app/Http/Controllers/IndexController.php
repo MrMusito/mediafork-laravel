@@ -14,7 +14,7 @@ class IndexController extends Controller
     public function store(Request $request) {
         $request->validate([
             'name' => 'required',
-            'email' => 'required|unique:clients',
+            'email' => 'required|email:rfc,dns',
             'phone' => 'required|numeric',
             'message' => 'required|max:255',
         ]);
