@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <title>mediaFork</title>
     @vite('resources/css/app.css')
 </head>
+
 <body class="template-dark">
     <header class="header">
         <div class="header-container container">
@@ -33,7 +35,7 @@
             <h2 class="hero-ttl">
                 <p>Awesome agency</p>
                 <p>Beautiful project</p>
-            </h2> 
+            </h2>
             <a class="button-scroll" href="#main"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
         </div>
     </div>
@@ -42,12 +44,12 @@
             <div class="about">
                 <p class="about-text about-text-xl">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    <span class="about-text-highlight">nihil quidem facere</span>  
+                    <span class="about-text-highlight">nihil quidem facere</span>
                 </p>
                 <div class="about-text">
                     <h3 class="about-ttl-sm">Lorem ipsum dolor sit amet</h3>
                     <p class="about-txt-sm">
-                        Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
+                        Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
                     </p>
                 </div>
             </div>
@@ -58,7 +60,7 @@
                             <h3 class="card-ttl">Spread your ideas worldwide</h3>
                             <p class="card-txt">
                                 The most challenging part of your plan is to spread your ideas and services all
-over the world. Give us your trust !
+                                over the world. Give us your trust !
                             </p>
                             <img class="card-icon" src="img/icon-web.png" alt="Web services">
                         </a>
@@ -68,7 +70,7 @@ over the world. Give us your trust !
                             <h3 class="card-ttl">IT experts for you in no time</h3>
                             <p class="card-txt">
                                 Our IT expert team is available 24 7 and will support you to solve your problem
-whenever it comes over.
+                                whenever it comes over.
                             </p>
                             <img class="card-icon" src="img/icon-time.png" alt="Quick">
                         </a>
@@ -78,7 +80,7 @@ whenever it comes over.
                             <h3 class="card-ttl">Websites available on all devices</h3>
                             <p class="card-txt">
                                 Designers and developers work together to bring you unique and highly valuable
-web interfaces declined for all the digital devices available on the market.
+                                web interfaces declined for all the digital devices available on the market.
                             </p>
                             <img class="card-icon" src="img/icon-phone.png" alt="Mobile expert">
                         </a>
@@ -88,7 +90,7 @@ web interfaces declined for all the digital devices available on the market.
                             <h3 class="card-ttl">Creative team and fancy ideas</h3>
                             <p class="card-txt">
                                 Web design trends are constantly changing. We are always looking for new ways
-to attract new customers to your business. Let the latest web trends inspire you.
+                                to attract new customers to your business. Let the latest web trends inspire you.
                             </p>
                             <img class="card-icon" src="img/icon-lightbulb.png" alt="Creative">
                         </a>
@@ -103,40 +105,40 @@ to attract new customers to your business. Let the latest web trends inspire you
             </div>
             <ul class="portfolio-grid">
                 <li>
-                    <img  class="portfolio-img" src="img/project-1.jpg" alt="Roll the Dole">
+                    <img class="portfolio-img" src="img/project-1.jpg" alt="Roll the Dole">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Roll the Dole</span>
-                    </a> 
+                    </a>
                 </li>
                 <li>
-                    <img  class="portfolio-img" src="img/project-2.jpg" alt="Hambone">
+                    <img class="portfolio-img" src="img/project-2.jpg" alt="Hambone">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Hambone</span>
-                    </a> 
+                    </a>
                 </li>
                 <li>
-                    <img  class="portfolio-img" src="img/project-3.jpg" alt="Stewit">
+                    <img class="portfolio-img" src="img/project-3.jpg" alt="Stewit">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Stewit</span>
-                    </a> 
+                    </a>
                 </li>
                 <li>
-                    <img  class="portfolio-img" src="img/project-4.jpg" alt="Zoonic">
+                    <img class="portfolio-img" src="img/project-4.jpg" alt="Zoonic">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Zoonic</span>
-                    </a> 
+                    </a>
                 </li>
                 <li>
-                    <img  class="portfolio-img" src="img/project-5.jpg" alt="Thin Curve">
+                    <img class="portfolio-img" src="img/project-5.jpg" alt="Thin Curve">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Thin Curve</span>
-                    </a> 
+                    </a>
                 </li>
                 <li>
-                    <img  class="portfolio-img" src="img/project-6.jpg" alt="Who cares">
+                    <img class="portfolio-img" src="img/project-6.jpg" alt="Who cares">
                     <a href="#" class="portfolio-block">
                         <span class="portfolio-brand">Who cares</span>
-                    </a> 
+                    </a>
                 </li>
             </ul>
         </section>
@@ -145,8 +147,17 @@ to attract new customers to your business. Let the latest web trends inspire you
                 <div class="title-top">Get in touch</div>
                 <h3 class="title-main">How can we help you ?</h3>
             </div>
-            <form class="contact-form" action="{{ @route('form') }}" method="post">
+            <form class="contact-form" action="{{ @route('form') }}#contact" method="post">
                 @csrf
+                @if ($errors->any())
+                <div class="errors">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endif
                 <ul class="contact-list">
                     <li class="contact-item">
                         <label class="contact-label required" for="name">Your name</label>
@@ -200,4 +211,5 @@ to attract new customers to your business. Let the latest web trends inspire you
     </footer>
     @vite('resources/js/app.js')
 </body>
+
 </html>

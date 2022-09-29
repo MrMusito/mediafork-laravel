@@ -12,6 +12,12 @@ class IndexController extends Controller
         return view('page');
     }
     public function store(Request $request) {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|unique:clients',
+            'phone' => 'required|numeric',
+            'message' => 'required|max:255',
+        ]);
         $client = new Client;
         $client->name = $request->input('name');
         $client->email = $request->input('email');

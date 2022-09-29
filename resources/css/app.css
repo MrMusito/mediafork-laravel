@@ -482,6 +482,13 @@ body.template-dark {
     padding: 0 2rem;
 }
 
+.errors {
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-transform: uppercase;
+}
+
 .contact-list {
     display: flex;
     flex-direction: column;
